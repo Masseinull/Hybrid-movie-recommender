@@ -1,6 +1,6 @@
 # Hybrid Movie Recommendation System
 
-This project was completed for a Machine Learning course by a two-person group. It builds and evaluates a movie recommendation system using the **The Movies Dataset** (from TMDB).
+This project was completed for a Machine Learning course by a two-person group. It builds and evaluates a movie recommendation system using the **The Movies Dataset** (from IMDB).
 
 The system explores and implements three distinct recommendation strategies: content-based filtering, user-user collaborative filtering, and a hybrid model that combines these approaches to provide more robust suggestions. The entire implementation is contained within the `ML_project.ipynb` Jupyter Notebook.
 
@@ -18,6 +18,8 @@ The system explores and implements three distinct recommendation strategies: con
 
 3.  **Hybrid Model**: The `hybrid_recommendation_cbf` function implements a hybrid strategy. It starts with a movie title (an item-based approach) to identify an initial set of users who liked it. It then uses the collaborative filtering model to find a broader group of similar users and recommends movies from their collective preferences.
 
+## Dataset
+You can access the dataset zip file by this [link](https://drive.google.com/drive/folders/1fAMn3NRHXLaJ6XgJSbGEl-XYuDR9F3MO?usp=sharing)
 ## Installation Guide
 
 Follow these steps to set up and run the project.
